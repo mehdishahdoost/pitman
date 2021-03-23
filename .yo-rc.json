@@ -1,0 +1,9 @@
+{
+  "generator-node": {
+    "promptValues": {
+      "authorName": "Mehdi Shahdoost",
+      "authorEmail": "mhdshahdoost@gmail.com",
+      "authorUrl": ""
+    }
+  }
+}
