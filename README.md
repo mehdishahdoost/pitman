@@ -1,4 +1,4 @@
-# generator-pitman [![NPM version][npm-image]][npm-url]
+# generator-pitman [![1.0.0][npm-image]][npm-url]
 
 > collection of generators for modern applications
 
