@@ -20,6 +20,7 @@ yo pitman
 ## Current templates
 
  * maven-java8
+ * maven-java8-junit5-surefire
 
 ## License
 
