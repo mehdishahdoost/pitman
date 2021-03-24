@@ -1,12 +1,12 @@
 {
   "name": "generator-pitman",
-  "version": "0.0.0",
+  "version": "1.0.0",
   "description": "collection of generators for modern applications",
-  "homepage": "",
+  "homepage": "https://github.com/mehdishahdoost/pitman",
   "author": {
     "name": "Mehdi Shahdoost",
     "email": "mhdshahdoost@gmail.com",
-    "url": ""
+    "url": "https://github.com/mehdishahdoost"
   },
   "files": [
     "generators"
