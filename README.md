@@ -1,4 +1,4 @@
-# generator-pitman [![1.0.0][npm-image]][npm-url]
+# generator-pitman
 
 > collection of generators for modern applications
 
@@ -25,13 +25,3 @@ yo pitman
 ## License
 
 Apache-2.0 © [Mehdi Shahdoost]()
-
-
-[npm-image]: https://badge.fury.io/js/generator-pitman.svg
-[npm-url]: https://npmjs.org/package/generator-pitman
-[travis-image]: https://travis-ci.com/mehdishahdoost/generator-pitman.svg?branch=master
-[travis-url]: https://travis-ci.com/mehdishahdoost/generator-pitman
-[daviddm-image]: https://david-dm.org/mehdishahdoost/generator-pitman.svg?theme=shields.io
-[daviddm-url]: https://david-dm.org/mehdishahdoost/generator-pitman
-[coveralls-image]: https://coveralls.io/repos/mehdishahdoost/generator-pitman/badge.svg
-[coveralls-url]: https://coveralls.io/r/mehdishahdoost/generator-pitman
