@@ -22,6 +22,7 @@ yo pitman
  * maven-java8
  * maven-java8-junit4-surefire  
  * maven-java8-junit5-surefire
+ * maven-java8-junit4-junit5-surefire
 
 ## License
 
