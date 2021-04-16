@@ -12,7 +12,8 @@ module.exports = class extends Generator {
       "maven-java8-junit4-surefire",
       "maven-java8-junit5-surefire",
       "maven-java8-junit4-junit5-surefire",
-      "maven-java8-junit5-mockito-surefire"
+      "maven-java8-junit5-mockito-surefire",
+      "docker-compose:mysql"
     ];
 
     const prompts = [
@@ -83,6 +84,12 @@ module.exports = class extends Generator {
         this._copyDir(this.props.pNameAnswer + "/src/main/java");
         this._copyDir(this.props.pNameAnswer + "/src/main/resources");
         this._copyDir(this.props.pNameAnswer + "/src/test/java");
+        break;
+      case "docker-compose:mysql":
+        this.fs.copy(
+          this.templatePath("docker-compose-mysql"),
+          this.destinationPath(this.props.pNameAnswer)
+        );
         break;
       default:
         console.log("Error! Can't find suitable template.");
